@@ -22,6 +22,7 @@ public class GoogleGetIndex {
 		{
 			System.out.println(list.get(i).getText());
 		}
+		driver.close();
 	}
 
 }
