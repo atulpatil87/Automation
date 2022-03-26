@@ -13,6 +13,7 @@ public class first {
 		System.out.println(driver.getTitle());
 		//driver.close(); 
 		driver.quit();
+		
 	}
 
 }
