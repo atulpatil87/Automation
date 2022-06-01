@@ -26,5 +26,4 @@ public class GoogleGetIndex
 		}
 		driver.close();
 	}
-
 }
