@@ -1,14 +1,14 @@
 package selenium;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver;		// pakages import
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class first {
 
 	public static void main(String[] args)
 	{
-		System.setProperty("webdriver.chrome.driver","G:\\Applicatios\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","G:\\Applicatios\\chromedriver_win32\\chromedriver.exe"); 
+		WebDriver driver = new ChromeDriver();			// chrome deriver
 		driver.get("https://yahoo.in");
 		System.out.println(driver.getTitle());
 		//driver.close(); 
