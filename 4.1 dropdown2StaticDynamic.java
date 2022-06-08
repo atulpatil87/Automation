@@ -13,7 +13,6 @@ public class dropdown2StaticDynamic
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://spicejet.com"); //URL in the browse
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
-
 		driver.findElement(By.xpath("//a[@value='BLR']")).click();
 
 		Thread.sleep(2000);
