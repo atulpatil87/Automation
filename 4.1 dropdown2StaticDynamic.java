@@ -14,10 +14,6 @@ public class dropdown2StaticDynamic
 		
 		driver.get("http://spicejet.com"); //URL in the browser
 
-		//  //a[@value='MAA']  - Xpath for chennai
-
-		//  //a[@value='BLR']
-
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 
 		driver.findElement(By.xpath("//a[@value='BLR']")).click();
