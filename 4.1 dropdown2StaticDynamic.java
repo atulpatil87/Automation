@@ -11,7 +11,6 @@ public class dropdown2StaticDynamic
 	{
 		System.setProperty("webdriver.chrome.driver","G:\\Applicatios\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
 		driver.get("http://spicejet.com"); //URL in the browser
 
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
