@@ -21,7 +21,6 @@ public class dropdown2StaticDynamic
 		
 		
 		
-
 	}
 
 }
