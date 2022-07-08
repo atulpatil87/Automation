@@ -17,6 +17,7 @@ public class GoogleGetIndex
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://google.com");
+		
 		driver.findElement(By.className("gLFyf")).sendKeys("Automation Testing");
 		List <WebElement> list = driver.findElements(By.cssSelector("ul[class='G43f7e']>li>div>div>div>span>b"));
 		System.out.println("size : "+list.size());
