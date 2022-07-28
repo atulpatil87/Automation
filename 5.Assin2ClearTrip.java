@@ -57,13 +57,7 @@ public class Assin2ClearTrip
 		driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[2]/ul[1]/li[40]")).click();
 		System.out.println("click on the search button");
 		driver.findElement(By.cssSelector("//button[normalize-space()='Search flights']")).click();
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 	//	driver.close();
