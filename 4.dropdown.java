@@ -21,6 +21,7 @@ public class dropdown
 		dropdown.selectByVisibleText("USD");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		dropdown.selectByValue("INR");
+
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		driver.close();
 
