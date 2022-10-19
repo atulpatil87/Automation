@@ -58,7 +58,7 @@ public class Assin2ClearTrip
 		System.out.println("click on the search button");
 		driver.findElement(By.cssSelector("//button[normalize-space()='Search flights']")).click();
 			
-		
+	
 		
 	//	driver.close();
 		}
