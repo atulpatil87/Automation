@@ -6,8 +6,6 @@ package selenium;
 public class rsa {
 	public static void main(String[] args) throws InterruptedException {
 
-	// TODO Auto-generated method stub
-
 	//implicit wait - 2 seconds time out
 
 		System.setProperty("webdriver.chrome.driver","G:\\Applicatios\\chromedriver_win32\\chromedriver.exe");
